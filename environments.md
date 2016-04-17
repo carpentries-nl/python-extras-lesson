@@ -26,10 +26,10 @@ to achieve the same result is:
 $ conda env list
 # conda environments:
 #
-cornflakes               /Users/mkuzak/anaconda/envs/cornflakes
-py27                     /Users/mkuzak/anaconda/envs/py27
-snowflakes            *  /Users/mkuzak/anaconda/envs/snowflakes
-root                     /Users/mkuzak/anaconda
+cornflakes               ~/anaconda/envs/cornflakes
+py27                     ~/anaconda/envs/py27
+snowflakes            *  ~/anaconda/envs/snowflakes
+root                     ~/anaconda
 ```
 
 ## Creating an environment
@@ -41,7 +41,7 @@ $ conda create --name marsmission astropy
 Fetching package metadata: ....
 Solving package specifications: .........
 
-Package plan for installation in environment /Users/mkuzak/anaconda/envs/marsmission:
+Package plan for installation in environment ~/anaconda/envs/marsmission:
 
 The following packages will be downloaded:
 
